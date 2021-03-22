@@ -25,11 +25,12 @@
   * **Transfer based techniques**
   * **Clustering based techniques**
 
-## Take-On Message
+## Popular Benchmarks
+* ImageNet-LT
+* Places365-LT
+* iNaturalist
 
-* For sampling: The size of the final population has no bearing on the results. The performance depends on the class DISCRIMINATORY INFORMATION contained in the PRUNED PORPULATION.
-* SCORE LEVEL BALANCING is underdeveloped
-
+## Related Papers
 ### Training Cost-Sensitive Neural Networks with Methods Addressing the Class Imbalance Problem
 * ![](moving_threshold.jpg)
 * Cost based moving threshold can achieve similar performance with the sampling methods.
@@ -40,3 +41,9 @@
 * ![](SMOTE.png)
 * Generate synthetic examples from K-means neighbours by operating in “feature space”
 * Combine over-sampling and down-sampling
+
+## Take-on Message
+
+* For sampling: The performance depends on the class DISCRIMINATORY INFORMATION contained in the PRUNED PORPULATION.
+* SCORE LEVEL BALANCING is underdeveloped
+* Balancing will hurt feature learning, while help classifier learning
